@@ -1,0 +1,132 @@
+body
+{
+	background: #FAFAFA;
+	font-family: 'Kalam', cursive;
+	font-size: 16px;
+}
+
+.navbar{
+	background: #FAFAFA;
+	background-color: #42EDB2;
+	overflow: hidden; /*Preguntar que es overflow y porque esta oculto*/
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navbar a{
+	float: left;
+	display: block; /*preguntar que es display*/
+	color: white;
+	text-align: center;
+	padding: 1em 2em;
+	font-size: 25px;
+	text-decoration:none;
+}
+
+.navbar a:hover {
+	background-color: #E4E9E7;
+}
+
+.contenido{
+	margin-top: 6em;
+}
+
+#SoyEnya
+{
+	background-image: url("imgs/woodstock.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 2em;
+	overflow: hidden;
+	height: 45em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+h1{
+	font-size: 120px; 
+	color:#42EDB2;
+	font-family: 'Megrim', cursive;	
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2{
+	text-align: center;
+	padding: 1em;
+	color: #42EDB2;
+	font-size: 40px;
+}
+
+h3{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+	color: #2E2E2E;
+	font-size: 30px;
+}
+
+#Acerca{
+	background-color: #E0F8F7;
+	padding: 3em;
+}
+
+p{
+	text-align: center;
+	font-size: 25px;
+	padding: 1em;
+	color: black;
+}
+
+.Cajita{
+	float: left;
+	width: 33.33%; /*¿se divide entre el numero de cajitas?*/
+	background-color: none;
+	border: 10px solid none;
+}
+
+.Cajota::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.Cajita a{
+	width: 100%;
+}
+
+#Galeria{
+	background-color: none;
+	padding: 1em;
+}
+
+#Contacto{
+	display: flex;
+	flex-direction: column;
+	background-color: #E0F8F7;		
+}
+
+.detalles-contacto {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+footer{
+	background-color: #42EDB2;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+}
+
+footer p{
+	color: white;
+	text-align: center;
+}
